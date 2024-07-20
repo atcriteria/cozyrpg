@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(38, 20, 121);
+    color: rgb(255, 42, 173);
+}
+
+body {
+    max-width: 420px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Title Font Class */
+.caveat-title {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 174, 255);
+}
+
+/* Subtitle */
+.subtitle {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: .5rem;
+    margin: 10% auto 15% auto;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: rgb(255, 112, 224);
+}
+
+header {
+    width: 100%;
+}
+
+header div {
+    width: 100%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img {
+    width: 150px;
+    border-radius: 50%;
+    margin: auto 5%;
+}
